@@ -16,7 +16,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import java.util.List;
 
-@RefreshScope
+@RefreshScope  
 @RestController
 @RequestMapping(value = "/workers")
 public class WorkerResource {
